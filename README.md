@@ -61,6 +61,6 @@ mvn clean compile jib:dockerBuild
 Create either a cronjob (brxm-repo-maintainer-cronjob.yaml), job (brxm-repo-maintainer-job.yaml), or a regular deployment (brxm-repo-maintainer.yaml)
 
 ```bash
-kubectl create -f brxm-repo-maintainer-job.yaml
+kubectl create -f kubernetes/brxm-repo-maintainer-job.yaml
 ```
 
