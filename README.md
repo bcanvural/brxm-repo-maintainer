@@ -16,7 +16,6 @@ Start minikube with some additional resources
 minikube --memory 8192 --cpus 2 start
 ```
 
-### One time setup
 Setup helm (tested with v3.0.0) (kubernetes package manager) https://github.com/helm/helm
 ```bash
 brew install kubernetes-helm
